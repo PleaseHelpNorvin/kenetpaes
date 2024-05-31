@@ -1,0 +1,339 @@
+/* navbar */
+body{
+    margin: 0;
+    padding: 0;
+}
+.topnav{
+    /* border: 1px solid black; */
+    width: calc(100% - 2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.topnav-img-container{
+    /* border: 1px solid black; */
+}
+.topnav img{
+    height: 50px;
+}
+ul {
+    /* border: 1px solid red; */
+    display: flex;
+    /* width: 100%; */
+    gap: 150px;
+    border-collapse: collapse;
+    list-style-type: none;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+/* =================================================================== */
+main{
+    /* border: 1px solid green; */
+    height: calc(100vh - 57px);
+    display: flex;
+    overflow: auto;
+    /* box-shadow: 100px; */
+    /* margin: 0;
+    padding: 0; */
+}
+.main-container{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+.student-main-container{
+    /* border: 1px solid black; */
+    /* border-top: 1px solid black ; */
+    /* border-bottom: 1px solid black; */
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+.lifeatuf-body-text{
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black;
+}
+.left{
+    /* border: 1px solid black; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left .top{
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Normal', sans-serif; */
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 20.73px;
+    padding: 0;
+    margin: 0;
+}
+.left .mid{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58.09px;
+    padding: 0;
+    margin: 0;
+}
+.left .bot {
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    font-weight: 400;
+    font-size: 11px;
+    /* font-style: normal; */
+    line-height: 5.31px;
+    padding: 0;
+    margin: 0;
+}
+.left-anchor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    height: 40px;
+}
+.left-anchor a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    background: #5200FF;
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+}
+
+.right{
+    /* border: 1px solid red; */
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right img{
+    height: 42.em;
+    width: 90%;
+}
+/* =================================================================== */
+.main-title{
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-title p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main-row{
+    /* border: 1px solid black; */
+    height: auto;
+}
+.main-row-student{
+    height: auto;
+    width: 100%;
+    margin-left: 10px;
+}
+.main-column{
+    /* border: 1px solid black; */
+    display: flex;
+    /* margin: ; */
+    /* width: ; */
+}
+.main-left, .main-right{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.main-left{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    /* max-width: 765px;
+    min-width: 765px; */
+}
+.main-flexstart{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.main-flexcenter{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-left img, .main-right img{
+    width: 743px;
+}
+.achievement-container{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.achievements{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.achievement-container p{
+    margin: 0;
+    padding: 0;
+}
+.divider {
+    width: 300px; /* or specify a fixed width */
+    height: 2px; /* thickness of the undgerline */
+    background-color: black; /* color of the underline */
+    margin: 10px 0; /* spacing around the underline */
+    position: relative; /* needed for the absolute positioning of the link */
+}
+
+.divider a {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.about-achievement-pics{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.achievement-pics-item img{
+    width: 400px;
+}
+.achievement-pics-item{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.achievement-pics-item a{
+    border: 1px solid orange;
+    /* border-radius: 10px; */
+    background: rgb(235, 233, 233);
+    text-decoration: none;
+    color: black;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-head-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    padding: 0;
+    margin: 20px 0 50px 0;
+}
+
+.main-flexstart a{
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    background: rgb(235, 233, 233);
+    color: black;
+}
+.main-flexcenter a{
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    background: rgb(235, 233, 233);
+    color: black;
+}
+.main-box{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.column{
+    /* width: 100%; */
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.column a{
+    height: 30px;
+    width: 200px;
+    margin: 5px;
+}
+.flex-column{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+.flex-between-container{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.lifeatuf-head-text{
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+.inside-head-text{
+    color: rgb(1, 1, 247);
+
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+.inside-body-text{
+    margin-left: 40px;
+}
+.inside-body-text a{
+    color: black;
+}
+.lifeatuf-body-text{
+    display: flex;
+    flex-direction: column;
+}
+.student-life-button{
+    height: 30px;
+    border: none;
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+}
